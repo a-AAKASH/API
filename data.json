@@ -1,0 +1,160 @@
+{
+ "stat": "ok",
+ "pagination": {
+  "offset": 0,
+  "limit": 50,
+  "total": 5
+ },
+ "monitors": [
+  {
+   "id": 784355743,
+   "friendly_name": "[PROD] Auth API",
+   "url": "https://authapi.alpima.net/auth/ok",
+   "type": 1,
+   "sub_type": "",
+   "keyword_type": null,
+   "keyword_case_type": 0,
+   "keyword_value": "",
+   "http_username": "",
+   "http_password": "",
+   "port": "",
+   "interval": 60,
+   "timeout": 30,
+   "status": 2,
+   "create_datetime": 1582040675,
+   "logs": [
+    {
+     "id": 1432885470,
+     "type": 1,
+     "datetime": 1598686859,
+     "duration": 719,
+     "reason": {
+      "code": "502",
+      "detail": "Bad Gateway"
+     }
+    }
+   ],
+   "lastLogTypeBeforeStartDate": {}
+  },
+  {
+   "id": 784355758,
+   "friendly_name": "[PROD] BJB SAML",
+   "url": "https://samlsp.alpima.net/ok",
+   "type": 1,
+   "sub_type": "",
+   "keyword_type": null,
+   "keyword_case_type": 0,
+   "keyword_value": "",
+   "http_username": "",
+   "http_password": "",
+   "port": "",
+   "interval": 60,
+   "timeout": 30,
+   "status": 2,
+   "create_datetime": 1582040740,
+   "logs": [
+    {
+     "id": 1432885599,
+     "type": 1,
+     "datetime": 1598686872,
+     "duration": 1200,
+     "reason": {
+      "code": "502",
+      "detail": "Bad Gateway"
+     }
+    }
+   ],
+   "lastLogTypeBeforeStartDate": {}
+  },
+  {
+   "id": 790608131,
+   "friendly_name": "[PROD] Natixis Web App v2",
+   "url": "https://natixis-im.alpima.net/login",
+   "type": 1,
+   "sub_type": "",
+   "keyword_type": null,
+   "keyword_case_type": null,
+   "keyword_value": "",
+   "http_username": "",
+   "http_password": "",
+   "port": "",
+   "interval": 60,
+   "timeout": 30,
+   "status": 2,
+   "create_datetime": 1644510264,
+   "logs": [
+    {
+     "id": 2485707869,
+     "type": 98,
+     "datetime": 1644510264,
+     "duration": 38,
+     "reason": {
+      "code": "98",
+      "detail": "Monitor started"
+     }
+    }
+   ],
+   "lastLogTypeBeforeStartDate": {}
+  },
+  {
+   "id": 784355767,
+   "friendly_name": "[PROD] Notifications",
+   "url": "https://notifications.alpima.net/api/ok",
+   "type": 1,
+   "sub_type": "",
+   "keyword_type": null,
+   "keyword_case_type": 0,
+   "keyword_value": "",
+   "http_username": "",
+   "http_password": "",
+   "port": "",
+   "interval": 60,
+   "timeout": 30,
+   "status": 2,
+   "create_datetime": 1582040793,
+   "logs": [
+    {
+     "id": 1432885370,
+     "type": 1,
+     "datetime": 1598686847,
+     "duration": 780,
+     "reason": {
+      "code": "502",
+      "detail": "Bad Gateway"
+     }
+    }
+   ],
+   "lastLogTypeBeforeStartDate": {}
+  },
+  {
+   "id": 784355759,
+   "friendly_name": "[PROD] Web API",
+   "url": "https://api.alpima.net/api/ok",
+   "type": 1,
+   "sub_type": "",
+   "keyword_type": null,
+   "keyword_case_type": 0,
+   "keyword_value": "",
+   "http_username": "",
+   "http_password": "",
+   "port": "",
+   "interval": 60,
+   "timeout": 30,
+   "status": 2,
+   "create_datetime": 1582040754,
+   "logs": [
+    {
+     "id": 1529867367,
+     "type": 1,
+     "datetime": 1605893412,
+     "duration": 42,
+     "reason": {
+      "code": "502",
+      "detail": "Bad Gateway"
+     }
+    }
+   ],
+   "lastLogTypeBeforeStartDate": {}
+  }
+ ]
+}

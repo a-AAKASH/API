@@ -14,10 +14,3 @@ Reference information: <br />
 • Documentation (https://uptimerobot.com/api/) <br />
 • List of monitors (790608131, 784355743, 784355767, 784355758, and 784355759) <br />
 
-## Answers
-
-Calculation for Average uptime for the last week:    [ Weekly downtime periods(in seconds) = 604800 - (Uptime * 604800) ]
-
-Monitor : *131
-    Duration : 11951720 (i.e. downtime in seconds)
-    
